@@ -29,5 +29,10 @@ $ python3 main.py 10.10.10.1
 [*] ip: 10.10.10.1
 [*] ttl: 64
 [*] os: Linux
-
 ~~~
+
+# **METR1CKA**
+
+> [Visitanos en DevBlogs](https://metr1cka.github.io "Pagina web")
+
+> [Mas repositorios](https://github.com/METR1CKA "Mi perfil")
