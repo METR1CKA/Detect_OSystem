@@ -5,7 +5,9 @@ import sys
 from detectSys import detectSystem
 
 if len(sys.argv) != 2:
+
     print('\n[!] uso: python3 ' + sys.argv[0] + ' <direccion ip>\n')
+
 else:
     ip = sys.argv[1]
 
