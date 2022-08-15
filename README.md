@@ -1,6 +1,6 @@
 # Detect_OSystem
 
-Un pequeño script en `python` para ver la información de una maquina victima, especificamente de red
+Script en `python` que devuelve la información en red de una maquina victima
 
 ## Requisitos
 
@@ -15,7 +15,9 @@ Un pequeño script en `python` para ver la información de una maquina victima, 
 $ sudo chmod 777 main.py detectSys.py
 ~~~
 
-2. Ejecutar el archivo `main.py` 
+2. Ejecutar el archivo `main.py`
+
+*Al ejecutar el archivo, mostrara información de uso*
 
 ~~~bash
 $ python3 main.py
@@ -23,12 +25,15 @@ $ python3 main.py
 [!] uso: python3 main.py <direccion ip>
 ~~~
 
-~~~bash
-$ python3 main.py 10.10.10.1
+*Este retornara los datos de la maquina victima para comenzar el hacking*
 
-[*] ip: 10.10.10.1
+~~~bash
+$ python3 main.py 10.10.10.10
+
+[*] ip: 10.10.10.10
 [*] ttl: 64
 [*] os: Linux
+[*] open ports: [ 21, 22, 80, 587 ]
 ~~~
 
 # **METR1CKA**
