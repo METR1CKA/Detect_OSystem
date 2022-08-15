@@ -17,4 +17,8 @@ else:
 
     os = obj.osSystem(ttl)
 
-    print('\n[*] ip: %s\n[*] ttl: %s\n[*] os: %s' % (ip, ttl, os))
+    ports = obj.portsSys()
+
+    print('\n[*] ip: %s\n[*] ttl: %s\n[*] os: %s\n[*] open ports: %s' % (ip, ttl, os, ports))
+
+
