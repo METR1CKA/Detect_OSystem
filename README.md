@@ -1,6 +1,6 @@
 # Detect_OSystem
 
-Script en `python` que devuelve la información en red de una maquina victima
+Script en `python` para saber la información de una maquina victima, ingresando la `ip`
 
 ## Requisitos
 
