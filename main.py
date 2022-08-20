@@ -7,7 +7,7 @@ import sys, time
 
 try:
 
-    ip = input('\nEnter the ip address: ')
+    ip = input('\n[+] Enter the ip address: ')
 
     obj = detectSystem(ip)
 
@@ -21,7 +21,7 @@ try:
 
 except KeyboardInterrupt:
 
-    print('\nCanceling process')
+    print('\n[!] Canceling process')
     
     time.sleep(1)
     
