@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 #coding: utf-8
 
-from detectSys import detectSystem
+from app.detectSys import detectSystem
 
 import sys, time
 
