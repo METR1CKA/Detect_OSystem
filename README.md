@@ -28,6 +28,18 @@ $ python3 main.py
 [+] open ports: [ 21, 22, 80, 587 ]
 ~~~
 
+## Arbol de archivos
+
+~~~bash
+detectSys
+├── app
+│   └── detectSys.py
+├── main.py
+└── README.md
+
+1 directory, 3 files
+~~~
+
 # **METR1CKA**
 
 > [Visitanos en DevBlogs](https://metr1cka.github.io "Pagina web")
