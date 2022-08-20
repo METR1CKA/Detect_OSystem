@@ -20,7 +20,7 @@ $ sudo chmod 777 main.py detectSys.py
 ~~~bash
 $ python3 main.py
 
-Enter the ip address: 10.10.10.10
+[+] Enter the ip address: 10.10.10.10
 
 [+] ip: 10.10.10.10
 [+] ttl: 64
