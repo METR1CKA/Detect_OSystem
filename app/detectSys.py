@@ -52,5 +52,6 @@ class detectSystem:
 				s.close()
 
 			return ports
+
 		except Exception as e:
 			return e
