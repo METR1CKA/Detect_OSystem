@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 #coding: utf-8
 
-import re, subprocess
-
-import socket
+import re, subprocess, socket
 
 class detectSystem:
 
