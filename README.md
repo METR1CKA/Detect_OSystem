@@ -11,19 +11,19 @@ Script en `python` para saber la información de una maquina victima, ingresando
 
 1. Darle todos los permisos a los archivos
 
-~~~bash
-$ sudo chmod 777 main.py detectSys.py
+~~~console
+$ sudo chmod 777 main.py
 ~~~
 
 2. Ejecutar el archivo `main.py`
 
-~~~bash
+~~~console
 $ python3 main.py
 
 [+] Enter the ip address: 10.10.10.10
 
 [+] ip: 10.10.10.10
-[+] ttl: 64
+[+] ttl: 128
 [+] os: Windows
 [+] open ports: [ 21, 22, 80, 587 ]
 ~~~
