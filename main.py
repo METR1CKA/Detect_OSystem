@@ -17,7 +17,14 @@ try:
 
     ports = obj.portsSys()
 
-    print('\n[+] ip: %s\n[+] ttl: %s\n[+] os: %s\n[+] open ports: %s' % (ip, ttl, os, ports))
+    print(
+        f'''
+        \n[+] ip: {ip}
+        \n[+] ttl: {ttl}
+        \n[+] os: {os}
+        \n[+] open ports: {ports}
+        '''
+    )
 
 except KeyboardInterrupt:
 
