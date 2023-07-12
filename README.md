@@ -5,20 +5,14 @@ Script en `python` para saber la información de una maquina victima, ingresando
 ## Requisitos
 
 * Python
-* Linux
+* Linux/Unix
 
 ## Instrucciones
 
-1. Darle todos los permisos a los archivos
+1. Ejecutar el archivo `main.py`
 
 ~~~console
-$ sudo chmod 777 main.py
-~~~
-
-2. Ejecutar el archivo `main.py`
-
-~~~console
-$ python3 main.py
+python3 main.py
 
 [+] Enter the ip address: 10.10.10.10
 
@@ -32,8 +26,6 @@ $ python3 main.py
 
 ~~~bash
 detectSys
-├── app
-│   └── detectSys.py
 ├── main.py
 └── README.md
 
