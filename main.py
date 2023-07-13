@@ -38,25 +38,24 @@ def portsSystem(ip):
     hostname = socket.gethostbyname(ip)
     # List for save ports
     ports = []
-
+    # try/except to Exception
     try:
         # Check ports
         for port in range(1, 150):
+            # Socket
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
             socket.setdefaulttimeout(1)
-
             # Save results
             results = s.connect_ex((hostname, port))
-
             # Save ports
             if results == 0:
                 ports.append(port)
-
+            # Close socket
             s.close()
-
+            # Return ports
             return ports
     except Exception as error:
+        # Return error
         return error
 
 if __name__ == "__main__":
