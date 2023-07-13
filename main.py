@@ -58,18 +58,21 @@ def portsSystem(ip):
         # Return error
         return error
 
+# Check if this is main
 if __name__ == "__main__":
+    # try/except to keyboard interrupt (CTRL + c)
     try:
+        # Get ip
         ip = input("\n[+] Enter the ip address: ")
-
+        # Check length
         if len(ip) == 0:
             print("\n[x] Error: No value entered for <ip>")
             sys.exit(1)
-        
+        # Get data
         ttl = checkTTL(ip)
         os = osSystem(ttl)
         ports = portsSystem(ip)
-
+        # Print data
         print(
             f"""
             \n[*] ip: {ip}
@@ -78,9 +81,10 @@ if __name__ == "__main__":
             \n[*] open_ports: {ports}
             """
         )
-
+        # Finish
         sys.exit(0)
     except KeyboardInterrupt:
+        # Exception CTRL + c
         print("\n[!] Canceling process")
         slp()
         sys.exit(1)
